@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="innerCircleColor">#888888</color>
+    <color name="progressBarColor">#000000</color>
+    <color name="ringColor">#444444</color>
+    <integer name="innerCircleAlpha">200</integer>
+    <integer name="progressBarAlpha">230</integer>
+    <integer name="ringAlpha">200</integer>
+    <dimen name="ringWidth">15dp</dimen>
+    <dimen name="innerCircleRadius">50dp</dimen>
+    <integer name="max">100</integer>
+    <integer name="currentProgress">0</integer>
+    <bool name="isDisplayText" >true</bool>
+    <color name="textColor">#000000</color>
+    <dimen name="textSize">13sp</dimen>
+    <bool name="isStrokeStyle">true</bool>
+
+    <color name="pauseBarColor">#444444</color>
+    <dimen name="pauseBarWidth">5dp</dimen>
+    <dimen name="pauseBarHeight">12dp</dimen>
+    <integer name="pauseBarAlpha">200</integer>
+    <integer name="status">0</integer>
+</resources>

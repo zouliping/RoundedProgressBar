@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:rpb="http://schemas.android.com/apk/res/com.example.RoundedProgressBar"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFFFFF"
+        >
+    <com.example.RoundedProgressBar.RoundedProgressBar
+            android:id="@+id/pb"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            rpb:ringWidth="5dp"
+            rpb:innerCircleRadius="15dp"
+            rpb:textSize="15sp"
+            rpb:isStrokeStyle="true"
+            rpb:currentProgress="50"
+            />
+</LinearLayout>
+
+
