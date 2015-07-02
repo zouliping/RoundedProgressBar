@@ -19,5 +19,5 @@
     <dimen name="pauseBarWidth">5dp</dimen>
     <dimen name="pauseBarHeight">12dp</dimen>
     <integer name="pauseBarAlpha">200</integer>
-    <integer name="status">0</integer>
+    <integer name="status">1</integer>
 </resources>
