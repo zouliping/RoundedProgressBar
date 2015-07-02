@@ -4,19 +4,34 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:background="#FFFFFF"
-        >
+              android:background="@android:color/darker_gray">
+    
     <com.example.RoundedProgressBar.RoundedProgressBar
-            android:id="@+id/pb"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+        android:id="@+id/pb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
 
-            rpb:ringWidth="5dp"
-            rpb:innerCircleRadius="15dp"
-            rpb:textSize="15sp"
-            rpb:isStrokeStyle="true"
-            rpb:currentProgress="50"
-            />
+        rpb:ringWidth="5dp"
+        rpb:innerCircleRadius="35dp"
+        rpb:ringColor="@android:color/white"
+        rpb:textColor="@android:color/white"
+        rpb:progressBarColor="#03ff96"
+        rpb:textSize="18sp"
+        rpb:isStrokeStyle="true"
+        rpb:currentProgress="55" />
+
+    <com.example.RoundedProgressBar.PausableProgressBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        rpb:ringWidth="5dp"
+        rpb:innerCircleRadius="25dp"
+        rpb:ringColor="@android:color/white"
+        rpb:textColor="@android:color/white"
+        rpb:pauseBarColor="@android:color/white"
+        rpb:progressBarColor="#ff5824"
+        rpb:textSize="18sp"
+        rpb:isStrokeStyle="true"
+        rpb:currentProgress="36"/>
+
 </LinearLayout>
-
 
