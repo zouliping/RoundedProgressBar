@@ -62,3 +62,7 @@ This project contains RoundProgressBar and PausableProgressBar.
 2. 通过setter方法，可设置其属性。
 
 3. 调用`roundedProgressBar.setCurrentProgress(int)`，设置当前进度。
+
+### ScreenShot
+
+![image](screenshot/screenshot.png)
