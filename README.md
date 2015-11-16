@@ -37,7 +37,7 @@ This project contains RoundProgressBar and PausableProgressBar.
 3. 在合适的位置上，添加RoundedProgressBar控件，为其设置系统控件属性和自定义属性。以下是一个可供参考的例子。        
 
 ```
-<cn.dxy.textbook.ui.component.RoundedProgressBar
+<cn.example.ui.component.RoundedProgressBar
 	android:id="@+id/book_library_list_item_rounded_progress_bar"
 	android:layout_width="80dp"
 	android:layout_height="80dp"
